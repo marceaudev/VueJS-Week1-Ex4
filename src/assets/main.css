@@ -1,0 +1,45 @@
+/* Import du fichier contenant le code CSS reset */
+@import './base.css';
+
+:root {
+  --light-blue: rgb(204, 229, 237);
+  --dark-blue: rgb(31, 143, 184);
+  --main-blue: rgb(9, 77, 101);
+  --dark-grey: grey;
+  --main-purple: rgb(114, 114, 193);
+  --main-white: rgb(244, 246, 247);
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: var(--dark-blue);
+}
+
+h2 {
+  color: var(--dark-blue);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+span {
+  text-decoration: underline;
+  color: var(--dark-grey);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
