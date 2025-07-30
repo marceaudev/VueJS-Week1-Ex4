@@ -1,35 +1,25 @@
-# style-errors
+# VueJS-Week1-Ex4
 
-This template should help get you started developing with Vue 3 in Vite.
+Exercice 4 of week 1 from the VueJS track at **LeReacteur**.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## ✅ Project Setup
 
-## Customize configuration
+To install all the dependencies, run:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+To start the app with hot reload for development:
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+To build the project for production:
 
-```sh
+```bash
 npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
